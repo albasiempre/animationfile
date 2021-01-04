@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background: #e9ebee;
+}
+
+.card-wrapper {
+  width: 400px;
+  height: 300px;
+  padding: 12px;
+  border: 1px solid #ECE9E3;
+  background: #fff;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-upper {
+  display: flex;
+}
+
+.avatar {
+  margin-right: 10px;
+  animation-name: gradient-transition ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 300px;
+
+}
+
+.avatar-placeholder {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.name-wrapper {
+  width: 300px;
+  height: 10px;
+  background-color: #f5f4f4;
+  border-radius: 10px;
+  animation-name: gradient-transition ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 300px;
+}
+
+.date-wrapper  {
+  width: 300px;
+  height: 10px;
+  background-color:#f5f4f4;
+  border-radius: 10px;
+  margin-top: 10px;
+  animation-name: gradient-transition ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 300px;
+  }
+
+
+.content-placeholder {
+  width: 300px;
+  height: 10px;
+  background-color:#f5f4f4;
+  border-radius: 10px;
+  margin-top: 10px;
+  animation-name: gradient-transition ;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  border-radius: 300px;
+  }
+
+
+
+.content-placeholder.p1 {
+  width: 100%;
+  }
+
+
+.content-placeholder.p2 {
+  width: 60%;
+
+}
+
+.content-placeholder.p3 {
+  width: 80%;
+}
+
+@keyframes gradient-transition {
+
+    0% {
+      background-color: #f1f1f1;
+    }
+
+    100% {
+      background-color: #e6e6e6;
+}
+
+}
